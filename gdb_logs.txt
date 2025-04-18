@@ -1,0 +1,9 @@
+    6  p reader->token->jead
+    7  p reader->token->headd
+    8  p reader->token->head
+    9  p head
+   10  p reader->token
+   11  q
+   12  run testcases/multi_op_err2.s
+   13  p val_a->val
+   14  q
